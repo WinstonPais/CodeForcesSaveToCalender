@@ -1,0 +1,12 @@
+const openGoogleCalendar = () =>{
+  window.open("https://www.w3schools.com");
+}
+
+document.addEventListener('DOMContentLoaded', function(){
+  const allRedLinks = document.getElementsByClassName('red-link');
+  console.log(allRedLinks);
+  for(let  i = 0;i < allRedLinks.length; i++){
+    allRedLinks[i].addEventListener('click',openGoogleCalendar);
+  }
+
+});
