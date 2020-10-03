@@ -1,0 +1,24 @@
+{
+  "name": "Getting Started Example",
+  "version": "1.0",
+  "description": "Build an Extension!",
+  "permissions": [
+    "http://*/*",
+    "https://*/*",
+    "file://*/*"
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_title": "Super Forces Save to Calender",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "128": "images/icon.png"
+    }
+  },
+  "manifest_version": 2
+}
