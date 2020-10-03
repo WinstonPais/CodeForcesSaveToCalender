@@ -7,12 +7,16 @@
     "https://*/*",
     "file://*/*"
   ],
-  "background": {
-    "scripts": [
-      "background.js"
-    ],
-    "persistent": false
-  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://codeforces.com/*"
+      ],
+      "js": [
+        "inject.js"
+      ]
+    }
+  ],
   "browser_action": {
     "default_title": "Super Forces Save to Calender",
     "default_popup": "popup.html",
