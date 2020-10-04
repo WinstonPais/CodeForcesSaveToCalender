@@ -1,6 +1,9 @@
 const click = () =>{
-  chrome.tabs.executeScript(null,{
-    code:"console.log('Welcome');"});
+  chrome.tabs.executeScript(null,
+    {
+      code:"console.log('Welcome');"
+    }
+  );
   window.close();
 
 }
