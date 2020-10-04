@@ -1,84 +1,28 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <meta charset="utf-8">
-    <title></title>
-    <script type="text/javascript">
-    var event = {
-      'summary': 'Google I/O 2015',
-      'location': '800 Howard St., San Francisco, CA 94103',
-      'description': 'A chance to hear more about Google\'s developer products.',
-      'start': {
-        'dateTime': '2020-10-06T09:00:00-07:00',
-        'timeZone': 'America/Los_Angeles'
-      },
-      'end': {
-        'dateTime': '2020-10-06T17:00:00-07:00',
-        'timeZone': 'America/Los_Angeles'
-      },
-      'reminders': {
-        'useDefault': true,
+    <style media="screen">
+      html,body{
+        height:100%;
+
       }
-    };
-
-    var request = gapi.client.calendar.events.insert({
-      'calendarId': 'primary',
-      'resource': event
-    });
-
-    request.execute(function(event) {
-      appendPre('Event created: ' + event.htmlLink);
-    });
-    </script>
+    </style>
+    <meta charset="utf-8">
+    <title>Super Forces</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
   </head>
-  <body>
-    <table class="">
-      <tbody>
-        <tr>
-          <th style="width:20em;" class="top left">Name</th>
-          <th style="width: 10em;" class="top">Writers</th>
-          <th style="width:5em;" class="top">Start</th>
-          <th style="width:4em;" class="top">Length</th>
-          <th style="width:10em;" class="top">&nbsp;</th>
-          <th style="width:15em;" class="top right">&nbsp;</th>
-        </tr>
-        <tr data-contestid="1422">
-          <td class="dark left">Codeforces Round #675 (Div. 2)</td>
-          <td class="small dark">
-            <a href="/profile/AleXman111" title="Candidate Master AleXman111" class="rated-user user-violet">AleXman111</a><br>
-            <a href="/profile/Vladik" title="Master Vladik" class="rated-user user-orange">Vladik</a><br>
-            <a href="/profile/andrew" title="Grandmaster andrew" class="rated-user user-red">andrew</a><br>
-            <a href="/profile/aropan" title="Grandmaster aropan" class="rated-user user-red">aropan</a><br>
-            <a href="/profile/hloya_ygrt" title="Grandmaster hloya_ygrt" class="rated-user user-red">hloya_ygrt</a><br>
-          </td>
-          <td class="dark">
-            <a href="https://www.timeanddate.com/worldclock/fixedtime.html?day=4&amp;month=10&amp;year=2020&amp;hour=19&amp;min=5&amp;sec=0&amp;p1=166" target="_blank">
-              Oct/04/2020 21:35<sup title="timezone offset" style="font-size:8px;">UTC+5.5</sup>
-            </a>
-          </td>
-          <td class="dark">
-            02:00
-          </td>
-          <td class="state dark">
-            Before start <span home="//sta.codeforces.com/s/11595" noredirection="true" class="countdown" cdid="i2">23:04:27</span>
-          </td>
-          <td style="font-size:0.8em;" class="dark right">
-            <a href="/contestRegistration/1422" class="red-link">Register »</a>
-            <a class="contestParticipantCountLinkMargin" title="Registered" href="/contestRegistrants/1422">
-              <img style="vertical-align: middle;" >&nbsp;x7873
-            </a>
-            <div>Until closing
-              <span class="countdown" cdid="i3">22:59:27</span>
-            </div>
-            <div class="notice">*has extra registration
-              <i class="icon-question-sign clickable-title" title="If you are late to register in 5
-                minutes before the start, you can register later during the extra registration. Extra
-                registration opens 10 minutes after the contest starts and lasts 20 minutes." style="position: relative; bottom: 3px;">
-              </i>
-            </div>
-          </td>
-        </tr>
-      </tbody>
-    </table>
+  <body style="background-color: rgb(186, 38, 219);">
+    <nav class="navbar navbar-dark bg-dark">
+      <a class="navbar-brand" href="https://github.com/WinstonPais/CodeForcesSaveToCalender">Super Forces</a>
+    </nav>
+      <div class="container">
+        <div class="jumbotron">
+          <h1 class="display-4">Hello, Welcome To Super Forces</h1>
+          <p class="lead">Ever Registered for a Rated online Event and forgot to participate lost your precious rating points? Fear not! Super Forces is here to Save your Date.</p>
+          <hr class="my-4">
+          <p>Save your codeforces contest dates to your google calenders with ease!</p>
+          <a class="btn btn-primary btn-lg" href="https://github.com/WinstonPais/CodeForcesSaveToCalender" role="button">Learn more</a>
+        </div>
+      </div>
   </body>
 </html>

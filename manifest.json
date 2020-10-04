@@ -3,9 +3,8 @@
   "version": "1.0",
   "description": "Build an Extension!",
   "permissions": [
-    "http://*/*",
-    "https://*/*",
-    "file://*/*"
+    "https://codeforces.com/*",
+    "https://calendar.google.com/"
   ],
   "content_scripts": [
     {

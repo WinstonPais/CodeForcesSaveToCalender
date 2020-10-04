@@ -1,4 +1,10 @@
 body,html{
   height: 100px;
-  width: 100px;
+  width: 200px;
+  background-color: rgb(160, 24, 214);
+}
+
+p,button{
+  text-align: center;
+  margin: auto;
 }
